@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/basic-data-binding', function () {
+    return view('basic-data-binding');
+});
